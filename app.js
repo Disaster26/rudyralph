@@ -16,6 +16,6 @@
   }
 
   var f=document.getElementById('formularz');
-  if(f)f.addEventListener('submit',function(e){e.preventDefault();var k=f.querySelector('.komunikat');if(!k){k=document.createElement('p');k.className='komunikat';f.appendChild(k)}k.textContent='To wersja robocza strony - formularz nie wysyła jeszcze wiadomości. Na gotowej stronie zgłoszenie trafi na office@rudyralph.eu, a nadawca dostanie potwierdzenie.'});
+  if(f)f.addEventListener('submit',function(e){e.preventDefault();var k=f.querySelector('.komunikat');if(!k){k=document.createElement('p');k.className='komunikat';f.appendChild(k)}k.textContent='To podgląd strony - formularz nie wysyła jeszcze wiadomości. Na gotowej stronie zgłoszenie trafi na office@rudyralph.eu, a nadawca dostanie potwierdzenie.'});
   var r=document.getElementById('rok');if(r)r.textContent=new Date().getFullYear();
 })();
