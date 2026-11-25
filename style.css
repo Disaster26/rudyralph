@@ -221,6 +221,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--rudy);outline-of
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
+.dane .nr{white-space:nowrap;font-variant-numeric:tabular-nums}
 /* podstrony */
 .naglowek-str{background:var(--ink);color:#C9D2DC;padding:clamp(64px,8vw,112px) 0 clamp(56px,7vw,88px);position:relative;overflow:hidden}
 .naglowek-str .wrap{position:relative}
